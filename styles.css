@@ -1,0 +1,83 @@
+/* G styles */
+Body {
+    Font-family: Arial, sans-serif;
+    Text-align: center;
+    Margin: 0;
+    Padding: 0;
+    Background-color: #f4f4f9;
+}
+
+Header {
+    Background-color: #af4c82;
+    Color: white;
+    Padding: 1em 0;
+}
+
+Main {
+    Padding: 2em;
+}
+
+Button {
+    Padding: 10px 20px;
+    Border: none;
+    Background-color: #af4c82;
+    Color: white;;
+    Color: white;
+    Cursor: pointer;
+    Border-radius: 5px;
+    Font-size: 16px;
+}
+
+Button:hover {
+    Background-color: #58d4df;
+}
+
+Footer {
+    Background-color: #333;
+    Color: white;
+    Padding: 1em 0;
+    Position: fixed;
+    Width: 100%;
+    Bottom: 0;
+}
+
+main img {
+    Display: block;
+    Margin: 20px auto;
+    Max-width: 200px; 
+    Height: auto;    
+    Border-radius: 10px; 
+    Box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* R Design */
+@media (max-width: 768px) {
+    Header h1 {
+        Font-size: 1.5em;
+    }
+
+    Main {
+        Padding: 1em;
+    }
+
+    Button {
+        Font-size: 14px;
+        Padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    Header h1 {
+        Font-size: 1.2em;
+    }
+
+    Main {
+        Padding: 0.5em;
+    }
+
+    Button {
+        Font-size: 12px;
+        Padding: 6px 12px;
+    }
+}
